@@ -15,5 +15,5 @@ def mostrar_persones_majors(persones):
         if persona.edat > 30:
             print(persona.nom)
 
-persones = [Persona("Jordi", 35), Persona("Anna", 25), Persona("Miquel", 40)]
+persones = [Persona("Jordi", 35), Persona("Romel", 25), Persona("Miquel", 40)]
 mostrar_persones_majors(persones)
